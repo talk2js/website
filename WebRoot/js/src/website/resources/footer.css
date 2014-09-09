@@ -1,0 +1,181 @@
+/*================================================= */
+/* Footer
+================================================== */
+#footer {
+	background: #363636;
+	margin: 0;
+	color: #bbbbbb;
+	padding: 5px 0;
+}
+
+#footer p {
+	line-height: 20px;
+}
+
+#footer_bottom {
+	background: #3f3f3f;
+	border-top: 1px solid #484848;
+}
+
+#footer-logo {
+	height: 70px;
+	margin: 5px 0 0 0;
+}
+
+#footer h4 {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	display: block;
+	border-bottom: 1px solid #484848;
+	padding: 10px 0;
+	margin: 5px 0 15px 0;
+}
+
+.copyright {
+	line-height: 50px;
+	color: #aaa;
+	position: relative;
+	width: 362px;
+	margin: 0 auto;
+}
+
+.copyright span{
+	color: #ffffff;
+}
+
+/*================================================= */
+/* Footer - Social Icons
+================================================== */
+ul.social {
+	float: left;
+	width: 100%;
+	margin-top: 18px;
+	margin-bottom: 9px;
+}
+
+ul.social li {
+	float: left;
+	margin-right: 5px;
+	width: 27px;
+	height: 27px;
+	display: block;
+}
+
+ul.social li a {
+	-webkit-transition: opacity 120ms ease-in-out;
+	-moz-transition: opacity 120ms ease-in-out;
+	-o-transition: opacity 120ms ease-in-out;
+	transition: opacity 120ms ease-in-out;
+	float: left;
+	width: 27px;
+	height: 27px;
+	display: block;
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+	filter: alpha(opacity = 0.4);
+}
+
+ul.social li a:hover {
+	opacity: 1;
+	-moz-opacity: 1;
+}
+
+ul.social li.facebook a {
+	background: url(images/social_icons/facebook.png) no-repeat;
+}
+
+ul.social li.twitter a {
+	background: url(images/social_icons/twitter.png) no-repeat;
+}
+
+ul.social li.vimeo a {
+	background: url(images/social_icons/vimeo.png) no-repeat;
+}
+
+ul.social li.linked a {
+	background: url(images/social_icons/linked.png) no-repeat;
+}
+
+ul.social li.flickr a {
+	background: url(images/social_icons/flickr.png) no-repeat;
+}
+
+ul.social li.behance a {
+	background: url(images/social_icons/behance.png) no-repeat;
+}
+
+ul.social li.delicious a {
+	background: url(images/social_icons/delicious.png) no-repeat;
+}
+
+ul.social li.deviantart a {
+	background: url(images/social_icons/deviantart.png) no-repeat;
+}
+
+ul.social li.dribbble a {
+	background: url(images/social_icons/dribbble.png) no-repeat;
+}
+
+ul.social li.forrst a {
+	background: url(images/social_icons/forrst.png) no-repeat;
+}
+
+ul.social li.google a {
+	background: url(images/social_icons/google.png) no-repeat;
+}
+
+ul.social li.lastfm a {
+	background: url(images/social_icons/lastfm.png) no-repeat;
+}
+
+ul.social li.myspace a {
+	background: url(images/social_icons/myspace.png) no-repeat;
+}
+
+ul.social li.picassa a {
+	background: url(images/social_icons/picassa.png) no-repeat;
+}
+
+ul.social li.quik a {
+	background: url(images/social_icons/quik.png) no-repeat;
+}
+
+ul.social li.reddit a {
+	background: url(images/social_icons/reddit.png) no-repeat;
+}
+
+ul.social li.rss a {
+	background: url(images/social_icons/rss.png) no-repeat;
+}
+
+/*================================================= */
+/* Footer - Address
+================================================== */
+.address {
+	color: #bbb;
+	font-family: "微软雅黑";
+	padding-bottom: 12px;
+	line-height: 18px;
+}
+
+.address img {
+	float: left;
+	padding-right: 7px
+}
+
+.address strong {
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	float: left;
+	padding-bottom: 8px;
+	padding-right: 4px;
+	font-family: "微软雅黑";
+}
+
+.address a {
+	color: #6ca6ce
+}
