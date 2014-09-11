@@ -19,17 +19,8 @@
 <script type='text/javascript' src="js/lib/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="js/lib/jquery.tools.min.js"></script>
 
-<script type="text/javascript">
-	$(function() {
-		$("#prod_nav ul").tabs("#panes > div", {
-			effect : 'fade',
-			fadeOutSpeed : 300
-		});
-	});
-</script>
-
 <script language="JavaScript">
-	require([ "dojo/parser", "website/HeaderNav",
+	require([ "dojo/parser", "website/HeaderNav", "website/SliderShow",
 			"website/Footer" ]);
 </script>
 
@@ -38,106 +29,7 @@
 <body>
 	<div data-dojo-type="website/HeaderNav"></div>
 
-	<div id="sliderShow">
-		<!-- tab panes -->
-		<div id="prod_wrapper">
-			<div id="panes">
-				<div>
-					<img src="images/demo/1.jpg"/>
-					<h2>Welcome to Bangalore</h2>
-					<p>Nulla hendrerit commodo tortor, vitae elementum magna
-						convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit
-						gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas
-						mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae
-						nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam.</p>
-					<p style="text-align:right; margin-right: 16px">
-						<a href="#" class="button">More Info</a> <a href="#"
-							class="button">Buy Now</a>
-					</p>
-				</div>
-
-				<div>
-					<img src="images/demo/2.jpg"/>
-					<h2>Meet Our Team</h2>
-					<p>Nulla hendrerit commodo tortor, vitae elementum magna
-						convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit
-						gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas
-						mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae
-						nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam.</p>
-					<p style="text-align:right; margin-right: 16px">
-						<a href="#" class="button">More Info</a> <a href="#"
-							class="button">Buy Now</a>
-					</p>
-				</div>
-
-				<div>
-					<img src="images/demo/3.jpg"/>
-					<h2>Mauris elementum</h2>
-					<p>Nulla hendrerit commodo tortor, vitae elementum magna
-						convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit
-						gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas
-						mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae
-						nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam.</p>
-					<p style="text-align:right; margin-right: 16px">
-						<a href="#" class="button">More Info</a> <a href="#"
-							class="button">Buy Now</a>
-					</p>
-				</div>
-
-				<div>
-					<img src="images/demo/4.jpg"/>
-					<h2>Nam tempor nibh</h2>
-					<p>Nulla hendrerit commodo tortor, vitae elementum magna
-						convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit
-						gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas
-						mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae
-						nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam.</p>
-					<p style="text-align:right; margin-right: 16px">
-						<a href="#" class="button">More Info</a> <a href="#"
-							class="button">Buy Now</a>
-					</p>
-				</div>
-
-				<div>
-					<img src="images/demo/5.jpg"/>
-					<h2>Supercar</h2>
-					<p>Nulla hendrerit commodo tortor, vitae elementum magna
-						convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit
-						gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas
-						mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae
-						nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam.</p>
-					<p style="text-align:right; margin-right: 16px">
-						<a href="#" class="button">More Info</a> <a href="#"
-							class="button">Buy Now</a>
-					</p>
-				</div>
-
-			</div>
-
-			<!-- END tab panes -->
-
-			<br clear="all" />
-
-			<!-- navigator -->
-
-			<div id="prod_nav">
-				<ul>
-					<li><a href="#"><img src="images/demo/1.jpg" width="160" /><strong>Class
-								aptent</strong></a></li>
-					<li><a href="#"><img src="images/demo/2.jpg" width="160" /><strong>Sed
-								dui risus</strong></a></li>
-					<li><a href="#"><img src="images/demo/3.jpg" width="160" /><strong>Pellentesque
-								quis</strong></a></li>
-					<li><a href="#"><img src="images/demo/4.jpg" width="160" /><strong>Mauris
-								elementum</strong></a></li>
-					<li><a href="#"><img src="images/demo/5.jpg" width="160" /><strong>Cras
-								et malesuada</strong></a></li>
-				</ul>
-			</div>
-			<!-- END navigator -->
-		</div>
-		<!-- END prod wrapper -->
-	</div>
+	<div data-dojo-type="website/SliderShow"></div>
 
 	<div class="container">
 		<div class="container-title">
